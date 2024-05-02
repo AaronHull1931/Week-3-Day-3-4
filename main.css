@@ -1,0 +1,163 @@
+a, h1, h2, h3, div, body, html, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Castoro, sans-serif;
+  }
+
+body {
+    margin: 0 100px;
+}
+#main {
+    background-color: #000000;
+    background-image: url(cropped.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+#header { 
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header h3 {
+    padding: 10px;
+    font-weight: lighter;
+}
+
+#header ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    padding: 10px;
+}
+
+#header ul li {
+    padding: 0 10px;
+}
+
+#header a {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+#primary h1 {
+    font-size: 100px;
+    text-align: center;
+    color: #ffffff;
+    padding: 30px;
+    margin: 30px;
+    border-bottom: 1px solid #ffffff;
+}
+
+#primary h2 {
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+    padding: 30px;
+    margin: 30px;
+    font-weight: lighter;
+}
+
+#secondary {
+    display: flex;
+    justify-content: center;
+}
+
+#secondary-txt{
+    background-color: #000000;
+     color: #ffffff;
+     padding-top: 50px;
+}
+
+#secondary-img {
+    width: 900px;
+    height: 600px;
+}
+#secondary-txt h3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 50px;
+    padding-top: 30px;
+}
+#secondary-txt p {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+    align-items: center;
+    padding-top: 50px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+#tertiary {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#tertiary-txt{
+    background-color: #222222;
+     color: #ffffff;
+     padding-top: 50px;
+}
+
+#tertiary-img {
+    width: 900px;
+    height: 600px;
+}
+#tertiary-txt h3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+#tertiary-txt p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    padding-top: 50px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+#fourth {
+    display: flex;
+    justify-content: center;
+}
+
+#fourth-txt {
+    background-color: #333333;
+     color: #ffffff;
+     padding-top: 50px;
+}
+
+#fourth-img {
+    width: 900px;
+    height: 600px;
+}
+#fourth-txt h3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 50px;
+    padding-top: 30px;
+}
+#fourth-txt p {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+    align-items: center;
+    padding-top: 50px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
